@@ -1,0 +1,222 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>Woocommerce ZohoCRM integration documentation</title>
+<!-- Framework CSS -->
+<link rel="stylesheet" href="assets/blueprint-css/screen.css"
+	type="text/css" media="screen, projection">
+<link rel="stylesheet" href="assets/blueprint-css/print.css"
+	type="text/css" media="print">
+<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+<link rel="stylesheet"
+	href="assets/blueprint-css/plugins/fancy-type/screen.css"
+	type="text/css" media="screen, projection">
+<style type="text/css" media="screen">
+p,table,hr,.box {
+	margin-bottom: 25px;
+}
+
+.box p {
+	margin-bottom: 10px;
+}
+</style>
+</head>
+
+
+<body>
+	<div class="container">
+
+		<h3 class="center alt">&ldquo;Woocommerce ZohoCRM Integration&rdquo;
+			Documentation by &ldquo;Magenest&rdquo; v1.0</h3>
+
+		<hr>
+
+		<h1 class="center">&ldquo;Woocommerce ZohoCRM Integration&rdquo;</h1>
+
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong> Created: 22/11/2014<br> By: Magenest<br>
+						Email: <a href="mailto:support@hungnamecommerce.com">support@hungnamecommerce.com</a>
+					</strong>
+				</p>
+			</div>
+			<!-- end div .span-6 -->
+
+			<div class="span-12 last">
+				<p class="prepend-top append-0">
+					Thank you for purchasing my plugin. If you have any questions that
+					are beyond the scope of this help file, please feel free to email
+					via my user page contact form <a
+						href="http://themeforest.net/user/magenest">here</a>. Thanks so much!
+				</p>
+			</div>
+		</div>
+		<!-- end div .borderTop -->
+
+		<hr>
+
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#introduction">Introducing to Woocommerce ZohoCRM integration
+					plugin</a></li>
+			<li><a href="#configuration">Configuration</a></li>
+			<li><a href="#fieldmapping">Fields Mapping for Woocommerce ZohoCRM Connector</a></li>
+			<li><a href="#report">Email variables</a></li>
+			<li><a href="#exampleUsages">Example of usages</a></li>
+            <li><a href="#roadmap">Road map</a> </li>
+		</ol>
+
+		<hr>
+
+		<h3 id="introduction">
+			<strong>A)Introducing to Woocommerce ZohoCRM integration</strong> - <a href="#toc">top</a>
+		</h3>
+		<p>The Woocommerce ZohoCRM integration Plugin is an indispensable tool to help you
+			synchronize data instantly between Woocommerce and ZohoCRM. The plugin allows to synchronize register customers in
+			Woocommerce to Lead in ZohoCRM, order in Woocommerce to Account and Contact in ZohoCRM.
+			 Admin can define
+			mapping fields between Woocommerce and ZohoCRM</p>
+			
+			<p>Features </p>
+		<ol>
+			<li class="level1"><div class="li">Synchronize register customer of Woocommerce to Lead in ZohoCRM</div></li>
+			<li class="level1"><div class="li">Synchronize Order of Woocommerce to Account in ZohoCRM</div></li>
+			<li class="level1"><div class="li">Synchronize Order of Woocommerce to Contact in ZohoCRM</div></li>
+
+			<li class="level1"><div class="li">Fields Mapping setting</div></li>
+			<li class="level1"><div class="li">Report of synchronized data between Woocommerce and ZohoCRM</div></li>
+		</ol>
+
+		</p>
+
+		<hr>
+
+		<h3 id="configuration">
+			<strong>B) Configuration</strong> - <a href="#toc">top</a>
+		</h3>
+
+		<p>You can access configuration page by clicking Settings of
+			woocommerce, then click ZohoCRM integration tab</p>
+		<img src="assets/images/woocommerce_zoho_crm_integration_setting.png" alt="Configuration page" />
+		<p>1. Zoho CRM User ID <br>Enter your ZohoCRM user id</p>
+
+		<p>2. Zoho CRM Password <br>
+		Enter your Zoho CRM Password
+		</p>
+		
+		<p>3. Manual set Auth Token <br>
+		 Check this checkbox if you want to manually enter Auth Token instead get Auth key automatically
+		 
+		 Do not check this checkbox if you want the plugin get the Auth Token automatically
+		</p>
+
+        <p>4. Register User to Lead <br>
+        check this checbox if you allow transmitting registed users in Woocommerce to Lead in Zoho CRM
+        </p>
+        
+        <p>5. Orders in Woocommerce into Account of Zoho CRM <br>
+        check this checbox if you allow transmitting  Orders in Woocommerce into Contact of Zoho CRM
+        </p>
+		<hr>
+
+		<h3 id="fieldmapping">
+			<strong>C) Fields Mapping for Woocommerce ZohoCRM Connector</strong> - <a href="#toc">top</a>
+		</h3>
+
+		<p>Woocommerce ZohoCRM Integration plugin allows admin configure fields mapping between Woocommerce and ZohoCRM.</p>
+        
+        There are 3 tables for setting fields mapping.
+        You can check/un check the enable checkbox to enable/disable the mapping for each fields.
+        <img src="assets/images/woocommerce_zoho_crm_integration_field_mapping.png"
+			alt="leads field mapping section" />
+		<h4>Fields Mapping for Lead of ZohoCRM</h4>
+		
+		<p>There are severals fields allow you configure fields mapping
+			efficiently</p>
+		<ol>
+			<li><strong>Title</strong> you can define Title for Lead that is synchronized from Woocommerce here.
+			For example, if you fulfill this fields with value <italic>Customer from Woocommerce store</italic></li>
+			<li><strong>Phone</strong> you can select Billing Phone /Shipping Phone of customer in Woocommerce to map with Phone of ZohoCRM Lead</li>
+			<li><strong>Mobile</strong> you can select Billing Phone /Shipping Phone customer in Woocommerce to map with mobile of ZohoCRM Lead</li>
+			<li><strong>Company</strong> you can select Billing company /Shipping company customer in Woocommerce to map with company of ZohoCRM Lead</li>
+			<li><strong>Street</strong> you can select Billing street /Shipping street customer in Woocommerce to map with street of ZohoCRM Lead</li>
+			<li><strong>City</strong> you can select Billing city /Shipping city customer in Woocommerce to map with city of ZohoCRM Lead</li>
+			<li><strong>Zipcode</strong> you can select Billing Zipcode /Shipping Zipcode customer in Woocommerce to map with zipcode of ZohoCRM Lead</li>
+			<li><strong>Country</strong> you can select Billing country /Shipping country customer in Woocommerce to map with country of ZohoCRM Lead</li>
+			
+
+		</ol>
+		<p>
+			The section <strong>Fields Mapping for Account of ZohoCRM
+
+         </strong> let you define the mapping fields for Account of ZohoCRM
+		</p>
+		
+		<ol>
+		<li><strong>Phone</strong> you can select Billing Phone /Shipping Phone of order in Woocommerce to map with Phone of ZohoCRM Account</li>
+			<li><strong>Description</strong> you can define Description for ZohoCRM's Account that is synchronized from Order Woocommerce here.
+			for example, you can fulfill it with "This account is created automatically from Order in Woocommerce"
+			</li>
+		</ol>
+		<p>
+			Section <strong>Contact Mapping Setting
+
+      </strong> let you define the mapping fields for Contact of ZohoCRM
+		</p>
+		<ol>
+         <li><strong>Title</strong> you can define Title for ZohoCRM's Contact that is synchronized from Order Woocommerce here.
+			for example, you can fulfill it with "Purchased customer"
+			</li>			<li><strong>Description</strong> you can define Description for ZohoCRM's Account that is synchronized from Order Woocommerce here.
+			for example, you can fulfill it with "This contact is created automatically from Order in Woocommerce"
+			</li>
+		</ol>
+		<hr>
+
+		<h3 id="report">
+			<strong>D)Woocommerce Zoho CRM Integration report</strong> - <a href="#toc">top</a>
+		</h3>
+		<p>
+         Click on <strong>Zoho CRM Integration > Report </strong> to access the report page of plugin.
+	     You will see a table that list all data transmitted between Woocommerce and Zoho CRM
+		</p>
+		<hr>
+
+		<h3 id="exampleUsages">
+			<strong>E) Example of usages</strong> - <a href="#toc">top</a>
+		</h3>
+         <img src="assets/images/zoholead.png" alt="example of transmitted lead" />
+		<hr>
+
+		<p>Once again, thank you so much for purchasing this plugin. As I
+			said at the beginning, I'd be glad to help you if you have any
+			questions relating to this plugin. No guarantees, but I'll do my best
+			to assist. If you have a more general question relating to the plugin
+			on Codecanyon, you might consider visiting the forums and asking
+			your question in the "Item Discussion" section.</p>
+        <hr>
+        
+		<h3 id="roadmap">
+			<strong>F) Road map</strong> - <a href="#toc">top</a>
+		</h3>
+		<p>
+		<ol>
+		 <li>Synchronize Product of Woocommerce to Product in Zoho CRM</li>
+		 <li>Synchronize Order of Woocommerce to Order in Zoho CRM</li>
+		 <li>Extend Rest api of Woocommerce for bi-direction synchronization</li>
+		</ol>
+		
+		If you have want the further features that is not supported in current version, do not hesitate to contact us.
+		</p>
+		<p class="append-bottom alt large">
+			<strong>Magenest</strong>
+		</p>
+		<p>
+			<a href="#toc">Go To Table of Contents</a>
+		</p>
+
+		<hr class="space">
+	</div>
+	<!-- end div .container -->
+</body>
+</html>

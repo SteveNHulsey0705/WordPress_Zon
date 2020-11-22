@@ -1,0 +1,283 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>Follow up email for woocommerce plugin documentation</title>
+<!-- Framework CSS -->
+<link rel="stylesheet" href="assets/blueprint-css/screen.css"
+	type="text/css" media="screen, projection">
+<link rel="stylesheet" href="assets/blueprint-css/print.css"
+	type="text/css" media="print">
+<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+<link rel="stylesheet"
+	href="assets/blueprint-css/plugins/fancy-type/screen.css"
+	type="text/css" media="screen, projection">
+<style type="text/css" media="screen">
+p,table,hr,.box {
+	margin-bottom: 25px;
+}
+
+.box p {
+	margin-bottom: 10px;
+}
+</style>
+</head>
+
+
+<body>
+	<div class="container">
+
+		<h3 class="center alt">&ldquo;Follow up email&rdquo;
+			Documentation by &ldquo;Hungnamecommerce&rdquo; v1.0</h3>
+
+		<hr>
+
+		<h1 class="center">&ldquo;Follow up email&rdquo;</h1>
+
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong> Created: 20/09/2014<br> By: Hungnamecommerce<br>
+						Email: <a href="mailto:support@hungnamecommerce.com">support@hungnamecommerce.com</a>
+					</strong>
+				</p>
+			</div>
+			<!-- end div .span-6 -->
+
+			<div class="span-12 last">
+				<p class="prepend-top append-0">
+					Thank you for purchasing my plugin. If you have any questions that
+					are beyond the scope of this help file, please feel free to email
+					via my user page contact form <a
+						href="http://themeforest.net/user/mtpg">here</a>. Thanks so much!
+				</p>
+			</div>
+		</div>
+		<!-- end div .borderTop -->
+
+		<hr>
+
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+			<li><a href="#introduction">Introducing to follow up email
+					plugin</a></li>
+			<li><a href="#configuration">Configuration</a></li>
+			<li><a href="#ruleManagement">Follow-up email rule managing</a></li>
+			<li><a href="#emailVariables">Email variables</a></li>
+			<li><a href="#credits">Sources and Credits</a></li>
+
+			<li><a href="#">PHP Code Explanation</a> <em class="quiet small">(If
+					your theme uses PHP)</em></li>
+			<li><a href="#">Flash</a> <em class="quiet small">(If your
+					theme uses Flash)</em></li>
+			<li><a href="#">API Usage</a> <em class="quiet small">(If
+					your theme uses an API)</em></li>
+			<li><a href="#">Any additional unique features that need an
+					overview</a></li>
+		</ol>
+
+		<hr>
+
+		<h3 id="introduction">
+			<strong>A)Introducing to follow up email</strong> - <a href="#toc">top</a>
+		</h3>
+		<p>The Follow Up Email Plugin is an indispensable tool to help you
+			stay in close touch with your customers. The plugin allows create
+			unlimited rules to send follow-up emails. Followup email plugin
+			allows admin insert coupon and it's expiry date in email.(Admin can
+			configure those coupons,coupon type, amount e .g ) Admin can define
+			rule base on these types</p>
+		<ol>
+			<li class="level1"><div class="li">When a customer
+					abandons their cart</div></li>
+			<li class="level1"><div class="li">Before x days of
+					customer's birthday</div></li>
+			<li class="level1"><div class="li">After customer place
+					order</div></li>
+			<li class="level1"><div class="li">After customer place
+					order and the order obtain a particular status and items of order
+					satisfied defined condition</div></li>
+			<li class="level1"><div class="li">To all customers on
+					specific day</div></li>
+		</ol>
+
+		</p>
+
+		<hr>
+
+		<h3 id="configuration">
+			<strong>B) Configuration</strong> - <a href="#toc">top</a>
+		</h3>
+
+		<p>You can access configuration page by clicking Settings of
+			woocommerce, then click Follow up email tab</p>
+		<img src="assets/images/setting.png" alt="Configuration page" />
+		<p>In the Sender field, enter the emails sender which will be used
+			in the “From” field of follow-up emails</p>
+
+		<p>Time period to be considered as abandoned cart : time in
+			minutes , the plugin counts time from the last update time of cart to
+			the current time, if a predefined time pass, the plugin will consider
+			it is abandoned cart.</p>
+
+
+
+		<hr>
+
+		<h3 id="ruleManagement">
+			<strong>C) Follow-up email rule managing</strong> - <a href="#toc">top</a>
+		</h3>
+
+		<p>Follow up email plugin allows admin configure rules according
+			to any requirements.</p>
+
+		To create new rules,
+		<ol>
+			<li>1.Login as admin</li>
+			<li>2.Click <strong> Woocommerce ->Follow up email</strong>
+			</li>
+			<li>3.Click <strong>Add follow up email</strong>
+			</li>
+		</ol>
+		<img src="assets/images/create-fue-general-panel.png"
+			alt="Create rules -general section"
+		<p>There are severals fields allow you configure your rule
+			efficiently</p>
+		<ol>
+			<li><strong>Follow-up email trigger</strong> select the trigger
+				which will cause the rule applying and email sending</li>
+			<li><strong>AND status of order</strong> this field is only
+				available if the trigger is "To buyer after they place order". This
+				field add condition to rule. Follow up email is added to queue if
+				the order is satistified this condition.</li>
+			<li><strong>Status</strong> admin can specify the rule status –
+				Active(Enabled) or Inactive(Disabled).</li>
+			<li><strong>Email chain</strong> Admin defines email template
+				for the rule here. <br> Hit the button named Add. <br> A
+				section appears let you define the email template. In the Send
+				field, specify the period type your email will be sent – <strong>After</strong>
+				or <strong>Before</strong> . <br> Define the exact period the
+				email will be send – <strong>Days, Hours, and Minutes </strong> <br>
+				In the Email Subject, enter the Subject of email. In the Email
+				content (below the Email Subject text box) , write the content of
+				email. You can use follow up email variables here. <br> You can
+				define many email per rules.</li>
+			<li>In the send copy to email section <strong>Send copy
+					to email </strong> enter the email address which will received an bcc of
+				follow up email.
+			</li>
+			<li><strong>Send email to customer</strong> If No is selected,
+				emails will be send to recipient which is specified in "Send copy to
+				email" only</li>
+
+		</ol>
+		<p>
+			The section <strong>Coupon option let you define the coupon
+				rule which generated coupon (these coupon can be attach in follow up
+				email).</strong>
+		</p>
+		<img src="assets/images/create-fue-coupon-and-condition-panel.png"
+			alt="Coupons section of follow up email rule page" />
+
+		<ol>
+			<li><strong>Enable coupon for this follow-up email rule</strong>
+				Specify whether to use coupons for this rule or not.</li>
+			<li><strong>Coupon Name</strong> Enter the coupon name.</li>
+			<li><strong>Coupon Pattern</strong> Specify the pattern for code
+				of coupon . You can use [A4]gift[N6] for example. A stands for
+				alphabet , 4 is number of alphabet will generated. N stand for
+				numeric digit. [A3] will generate a string hrw for example. [N5]
+				will generate 23987 for example. Combine [A2]com[N4] maybe generate
+				hfcom8430 .</li>
+
+			<li><strong>Coupon expiry date </strong> Specify the coupon's
+				expiry date in format YYYY-MM-DD. Leave it blank if you want the
+				coupon never expire</li>
+			<li><strong>Coupon type</strong> Select the coupon type you want
+				to insert in the email</li>
+			<li><strong>Amount/Percentage</strong>Enter the amount of
+				coupon, do not include percent symbol. For example, enter 10. 3</li>
+			<li><strong>Apply before tax</strong>Check this check box if the
+				coupon should applied before calculating tax</li>
+			<li><strong>Individual use</strong>Check this check box if the
+				coupon can not use in with other coupon</li>
+			<li><strong>Enable freeshipping</strong>Check this check box if
+				the coupon can enable freeshipping</li>
+		</ol>
+		<p>
+			Section <strong>Condition to send follow-up email </strong> is only
+			available if the trigger is "To buyer after they place order". If the
+			order is not satisfy the conditions which is defined here, the emails
+			will not add to queue.
+		</p>
+		<ul>
+			<li><strong>Skus</strong> Order must have product with sku
+				defined in this field. For example, admin wants to promote for
+				product A only, he creates rule to send follow up email to customers
+				who purchased product A only, so he will enter the sku of product A
+				in this field</li>
+			<li><strong>Category</strong> Order must have product which in
+				category defined in this field</li>
+			<li><strong>Order total great than</strong> Order must have
+				grand total value greater then the value defined in this field.</li>
+			<li><strong>Shipping method</strong> Order must have shipping
+				method defined in this field</li>
+			<li><strong>Payment method</strong> Order must have payment
+				method defined in this field</li>
+		</ul>
+		<hr>
+
+		<h3 id="emailVariables">
+			<strong>D) Follow up email variables</strong> - <a href="#toc">top</a>
+		</h3>
+
+		<p>The Follow Up Email extension allows you to use a number of
+			pre-defined variables in your templates:</p>
+
+		{{customer_name}} - The name of customer . Example usage Dear
+		{{customer_name}} <br> {{store_url}} The url of shop page of
+		woocommerce <br> {{store_name}} The name of blog <br>
+		{{order_number}} The order number <br> {{order_url}} The url of
+		order view <br> {{restore_cart_link}} The url customer click on
+		it to restore his abandoned cart.
+
+		<hr>
+
+		<h3 id="exampleUsages">
+			<strong>E) Example of usages</strong> - <a href="#toc">top</a>
+		</h3>
+
+		<p>The Follow Up Email plugin offers you a wide range of events – customer purchased product, 
+specific day, customer birthday, new abandoned cart appeared – which can cause the 
+follow-up email sending in a specified period of time. The section below describe in details how to make the 
+follow-up emails automatically send after some customer’s actions. </p>
+<br>
+Admin want to create rules to send emails to customer before their birthday 's 1 day and other email on their'birthday.
+He also wants to insert a coupon as gift in the first email, he want to add his own email as bcc of these email.
+To do so, he selects the "Birthday of customer" in follow-up email trigger.
+Status of rule is set to Active.
+
+<img src="assets/images/exampleUsageGeneralSection.png" alt="Example usage" />
+Admin want to send coupon to the customer so he must select "Yes" in the field "Enable coupon for this follow-up email rule ".
+Then he specifies other information related to coupon 
+<img src="assets/images/exampleUsagesCouponSection.png" alt="Example of usage" />
+		<hr>
+
+		<p>Once again, thank you so much for purchasing this plugin. As I
+			said at the beginning, I'd be glad to help you if you have any
+			questions relating to this plugin. No guarantees, but I'll do my best
+			to assist. If you have a more general question relating to the plugin
+			on Codecanyon, you might consider visiting the forums and asking
+			your question in the "Item Discussion" section.</p>
+
+		<p class="append-bottom alt large">
+			<strong>Hungnamecommerce</strong>
+		</p>
+		<p>
+			<a href="#toc">Go To Table of Contents</a>
+		</p>
+
+		<hr class="space">
+	</div>
+	<!-- end div .container -->
+</body>
+</html>

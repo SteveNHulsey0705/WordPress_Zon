@@ -1,0 +1,37 @@
+/*
+ Theme Name:     Dogma Child
+ Theme URI:      http://www.creativamotion.com/
+ Description:    Dogma Child
+ Author:         Rodrigo Viola
+ Author URI:     http://www.creativamotion.com
+ Template:       dogmawp
+ Version:        1.0.0
+*/
+
+@import url("../dogmawp/style.css");
+
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+.woocommerce #wrapper {
+  top: 90px;
+}
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+  display: inline;
+  float: left;
+  margin: 0 3.8% 2.992em 0 !important;
+  padding: 0;
+  position: relative;
+  width: 22.05%;
+  clear: none ;
+}
+
+.woocommerce ul.products {
+	width: 80%
+}
+
+.headercart{
+	margin-top: 15px;
+}
+

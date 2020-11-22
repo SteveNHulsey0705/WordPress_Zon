@@ -1,0 +1,6 @@
+Woocommerce Zoho CRM Integration- Changelog
+
+### Version 1.0.0 - November 26, 2014
+
+First release
+

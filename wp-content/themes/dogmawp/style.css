@@ -1,0 +1,54 @@
+/*Theme Name: DogmaWP
+Theme URI: http://themeforest.net/themes/dogmawp
+Description: A Dogma  Creative Responsive Architecture Theme is perfect if you like a clean and modern design. This template is ideal for architects, furniture designers, photographers, and those who need an easy, attractive and effective way to share their work with clients..
+Version: 1.1
+Author: webRedox WordPress team
+Author URI: http://www.webredox.net
+
+License:
+License URI:
+Tags: two-columns, fluid-layout, custom-background, custom-colors, featured-images, theme-options
+*/
+
+
+@import url('includes/css/style.css');
+
+.wp-caption{}
+.wp-caption-text{}
+.sticky{}
+.gallery-caption{}
+.bypostauthor{}
+.alignright{}
+.alignleft{}
+.aligncenter{}
+
+
+
+.alignleft,
+img.alignleft {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.alignright,
+img.alignright {
+    display: block;
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.aligncenter,
+img.aligncenter {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    clear: both;
+    margin-bottom: 20px;
+}
+.screen-reader-text {
+	
+}
+
+.screen-reader-text:focus {
+	
+}

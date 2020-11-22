@@ -1,0 +1,320 @@
+[15-Jun-2016 20:45:41 UTC] WordPress database error Duplicate key name 'location_type_code' for query ALTER TABLE wp_woocommerce_tax_rate_locations ADD KEY location_type_code (location_type(40),location_code(90)) made by activate_plugin, do_action('activate_woocommerce/woocommerce.php'), call_user_func_array, WC_Install::install, WC_Install::create_tables, dbDelta
+[16-Jun-2016 18:45:15 UTC] PHP Fatal error:  Cannot redeclare dogma_setup() (previously declared in /home/creativa/public_html/jairo/zonaar/wp-content/themes/dogmawp-child/functions.php:39) in /home/creativa/public_html/jairo/zonaar/wp-content/themes/dogmawp/functions.php on line 49
+[16-Jun-2016 19:39:41 UTC] WordPress database error Duplicate key name 'location_type_code' for query ALTER TABLE wp_woocommerce_tax_rate_locations ADD KEY location_type_code (location_type(40),location_code(90)) made by require_once('wp-admin/admin.php'), require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), call_user_func_array, WC_Install::check_version, WC_Install::install, WC_Install::create_tables, dbDelta
+[05-Jul-2016 19:53:33 UTC] WordPress database error Duplicate key name 'location_type_code' for query ALTER TABLE wp_woocommerce_tax_rate_locations ADD KEY location_type_code (location_type(40),location_code(90)) made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), call_user_func_array, WC_Install::check_version, WC_Install::install, WC_Install::create_tables, dbDelta
+[05-Jul-2016 19:53:33 UTC] WordPress database error Duplicate key name 'location_type_code' for query ALTER TABLE wp_woocommerce_shipping_zone_locations ADD KEY location_type_code (location_type(40),location_code(90)) made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), call_user_func_array, WC_Install::check_version, WC_Install::install, WC_Install::create_tables, dbDelta
+[05-Jul-2016 19:53:33 UTC] WordPress database error Duplicate key name 'meta_key' for query ALTER TABLE wp_woocommerce_payment_tokenmeta ADD KEY meta_key (meta_key(191)) made by require_once('wp-load.php'), require_once('wp-config.php'), require_once('wp-settings.php'), do_action('init'), call_user_func_array, WC_Install::check_version, WC_Install::install, WC_Install::create_tables, dbDelta
+[05-Jul-2016 19:53:58 UTC] WordPress database error Duplicate key name 'location_type_code' for query ALTER TABLE wp_woocommerce_tax_rate_locations ADD KEY location_type_code (location_type(40),location_code(90)) made by activate_plugin, do_action('activate_woocommerce/woocommerce.php'), call_user_func_array, WC_Install::install, WC_Install::create_tables, dbDelta
+[05-Jul-2016 19:53:58 UTC] WordPress database error Duplicate key name 'location_type_code' for query ALTER TABLE wp_woocommerce_shipping_zone_locations ADD KEY location_type_code (location_type(40),location_code(90)) made by activate_plugin, do_action('activate_woocommerce/woocommerce.php'), call_user_func_array, WC_Install::install, WC_Install::create_tables, dbDelta
+[05-Jul-2016 19:53:58 UTC] WordPress database error Duplicate key name 'meta_key' for query ALTER TABLE wp_woocommerce_payment_tokenmeta ADD KEY meta_key (meta_key(191)) made by activate_plugin, do_action('activate_woocommerce/woocommerce.php'), call_user_func_array, WC_Install::install, WC_Install::create_tables, dbDelta
+[14-Jul-2016 03:24:33 UTC] PHP Warning:  ob_start(): output handler 'ob_gzhandler' cannot be used twice in /home/creativa/public_html/jairo/zonaar/wp-content/plugins/wp-http-compression/wp-http-compression.php on line 30
+[14-Jul-2016 03:24:36 UTC] PHP Warning:  ob_start(): output handler 'ob_gzhandler' cannot be used twice in /home/creativa/public_html/jairo/zonaar/wp-content/plugins/wp-http-compression/wp-http-compression.php on line 30
+[14-Jul-2016 03:24:50 UTC] PHP Warning:  ob_start(): output handler 'ob_gzhandler' cannot be used twice in /home/creativa/public_html/jairo/zonaar/wp-content/plugins/wp-http-compression/wp-http-compression.php on line 30
+[22-Jul-2016 02:18:55 UTC] ERROR PostmanManageConfigurationAjaxHandler: Array
+(
+    [0] => PostmanWizardSocket Object
+        (
+            [hostname] => mandrillapp.com
+            [hostnameDomainOnly] => mandrillapp.com
+            [port] => 443
+            [protocol] => HTTPS
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => mandrillapp.com
+            [reportedHostnameDomainOnly] => mandrillapp.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => mandrill_api
+            [label] => 
+            [id] => mandrillapp.com_443
+        )
+
+    [1] => PostmanWizardSocket Object
+        (
+            [hostname] => api.sendgrid.com
+            [hostnameDomainOnly] => sendgrid.com
+            [port] => 443
+            [protocol] => HTTPS
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => api.sendgrid.com
+            [reportedHostnameDomainOnly] => sendgrid.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => sendgrid_api
+            [label] => 
+            [id] => api.sendgrid.com_443
+        )
+
+    [2] => PostmanWizardSocket Object
+        (
+            [hostname] => www.googleapis.com
+            [hostnameDomainOnly] => googleapis.com
+            [port] => 443
+            [protocol] => HTTPS
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => www.googleapis.com
+            [reportedHostnameDomainOnly] => googleapis.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => gmail_api
+            [label] => 
+            [id] => www.googleapis.com_443
+        )
+
+    [3] => PostmanWizardSocket Object
+        (
+            [hostname] => smtp.gmail.com
+            [hostnameDomainOnly] => gmail.com
+            [port] => 25
+            [protocol] => 
+            [secure] => 
+            [mitm] => 
+            [reportedHostname] => 
+            [reportedHostnameDomainOnly] => 
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 
+            [transport] => smtp
+            [label] => 
+            [id] => smtp.gmail.com_25
+        )
+
+    [4] => PostmanWizardSocket Object
+        (
+            [hostname] => smtp.gmail.com
+            [hostnameDomainOnly] => gmail.com
+            [port] => 465
+            [protocol] => 
+            [secure] => 
+            [mitm] => 
+            [reportedHostname] => 
+            [reportedHostnameDomainOnly] => 
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 
+            [transport] => smtp
+            [label] => 
+            [id] => smtp.gmail.com_465
+        )
+
+    [5] => PostmanWizardSocket Object
+        (
+            [hostname] => smtp.gmail.com
+            [hostnameDomainOnly] => gmail.com
+            [port] => 587
+            [protocol] => 
+            [secure] => 
+            [mitm] => 
+            [reportedHostname] => 
+            [reportedHostnameDomainOnly] => 
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 
+            [transport] => smtp
+            [label] => 
+            [id] => smtp.gmail.com_587
+        )
+
+)
+
+[22-Jul-2016 02:18:56 UTC] ERROR PostmanManageConfigurationAjaxHandler: Mandrill API
+[22-Jul-2016 02:18:56 UTC] ERROR PostmanManageConfigurationAjaxHandler: SendGrid API
+[22-Jul-2016 02:18:56 UTC] ERROR PostmanManageConfigurationAjaxHandler: Gmail API
+[22-Jul-2016 02:18:56 UTC] ERROR PostmanManageConfigurationAjaxHandler: 
+[22-Jul-2016 02:18:56 UTC] ERROR PostmanManageConfigurationAjaxHandler: 
+[22-Jul-2016 02:18:56 UTC] ERROR PostmanManageConfigurationAjaxHandler: 
+[22-Jul-2016 02:23:05 UTC] ERROR PostmanManageConfigurationAjaxHandler: Array
+(
+    [0] => PostmanWizardSocket Object
+        (
+            [hostname] => api.sendgrid.com
+            [hostnameDomainOnly] => sendgrid.com
+            [port] => 443
+            [protocol] => HTTPS
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => api.sendgrid.com
+            [reportedHostnameDomainOnly] => sendgrid.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => sendgrid_api
+            [label] => 
+            [id] => api.sendgrid.com_443
+        )
+
+    [1] => PostmanWizardSocket Object
+        (
+            [hostname] => www.googleapis.com
+            [hostnameDomainOnly] => googleapis.com
+            [port] => 443
+            [protocol] => HTTPS
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => www.googleapis.com
+            [reportedHostnameDomainOnly] => googleapis.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => gmail_api
+            [label] => 
+            [id] => www.googleapis.com_443
+        )
+
+    [2] => PostmanWizardSocket Object
+        (
+            [hostname] => smtp.gmail.com
+            [hostnameDomainOnly] => gmail.com
+            [port] => 25
+            [protocol] => 
+            [secure] => 
+            [mitm] => 
+            [reportedHostname] => 
+            [reportedHostnameDomainOnly] => 
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 
+            [transport] => smtp
+            [label] => 
+            [id] => smtp.gmail.com_25
+        )
+
+    [3] => PostmanWizardSocket Object
+        (
+            [hostname] => smtp.gmail.com
+            [hostnameDomainOnly] => gmail.com
+            [port] => 465
+            [protocol] => 
+            [secure] => 
+            [mitm] => 
+            [reportedHostname] => 
+            [reportedHostnameDomainOnly] => 
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 
+            [transport] => smtp
+            [label] => 
+            [id] => smtp.gmail.com_465
+        )
+
+    [4] => PostmanWizardSocket Object
+        (
+            [hostname] => mandrillapp.com
+            [hostnameDomainOnly] => mandrillapp.com
+            [port] => 443
+            [protocol] => HTTPS
+            [secure] => 1
+            [mitm] => 
+            [reportedHostname] => mandrillapp.com
+            [reportedHostnameDomainOnly] => mandrillapp.com
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 1
+            [transport] => mandrill_api
+            [label] => 
+            [id] => mandrillapp.com_443
+        )
+
+    [5] => PostmanWizardSocket Object
+        (
+            [hostname] => smtp.gmail.com
+            [hostnameDomainOnly] => gmail.com
+            [port] => 587
+            [protocol] => 
+            [secure] => 
+            [mitm] => 
+            [reportedHostname] => 
+            [reportedHostnameDomainOnly] => 
+            [message] => 
+            [startTls] => 
+            [authPlain] => 
+            [auth_login] => 
+            [auth_crammd5] => 
+            [auth_xoauth] => 
+            [auth_none] => 
+            [try_smtps] => 
+            [success] => 
+            [transport] => smtp
+            [label] => 
+            [id] => smtp.gmail.com_587
+        )
+
+)
+
+[22-Jul-2016 02:23:05 UTC] ERROR PostmanManageConfigurationAjaxHandler: SendGrid API
+[22-Jul-2016 02:23:05 UTC] ERROR PostmanManageConfigurationAjaxHandler: Gmail API
+[22-Jul-2016 02:23:05 UTC] ERROR PostmanManageConfigurationAjaxHandler: 
+[22-Jul-2016 02:23:05 UTC] ERROR PostmanManageConfigurationAjaxHandler: 
+[22-Jul-2016 02:23:05 UTC] ERROR PostmanManageConfigurationAjaxHandler: Mandrill API
+[22-Jul-2016 02:23:05 UTC] ERROR PostmanManageConfigurationAjaxHandler: 
